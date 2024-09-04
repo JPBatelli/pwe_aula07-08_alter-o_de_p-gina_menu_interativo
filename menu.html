@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <style>
@@ -9,6 +10,7 @@
       background-color: #333;
       font-family: Arial;
     }
+
     /* Links inside the navbar */
     .navbar a {
       float: left;
@@ -18,11 +20,13 @@
       padding: 14px 16px;
       text-decoration: none;
     }
+
     /* The dropdown container */
     .dropdown {
       float: left;
       overflow: hidden;
     }
+
     /* Dropdown button */
     .dropdown .dropbtn {
       font-size: 16px;
@@ -36,11 +40,13 @@
       margin: 0;
       /* Important for vertical align on mobile phones */
     }
+
     /* Add a red background color to navbar links on hover */
     .navbar a:hover,
     .dropdown:hover .dropbtn {
       background-color: red;
     }
+
     /* Dropdown content (hidden by default) */
     .dropdown-content {
       display: none;
@@ -50,6 +56,7 @@
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       z-index: 1;
     }
+
     /* Links inside the dropdown */
     .dropdown-content a {
       float: none;
@@ -59,36 +66,42 @@
       display: block;
       text-align: left;
     }
+
     /* Add a grey background color to dropdown links on hover */
     .dropdown-content a:hover {
       background-color: #ddd;
     }
+
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
       display: block;
     }
+
     .navbar {
       width: 100%;
       display: flex;
     }
+
     #text-right {
       margin-left: auto;
       margin-right: 0;
     }
+
     .logo {
       display: flex;
       width: 100%;
       align-items: start;
       background-color: #1a803c;
     }
- 
   </style>
 </head>
 <title>IFSP - Pirituba</title>
 <script src="js/disabling.js"></script>
 </head>
+
 <body>
   <header>
+
     <div id="my_menu" align="right">
       <div class="navbar">
         <div className='Left'>
@@ -100,21 +113,26 @@
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="Pages/ads.html" >Análise e Desenvolvimento de Sistemas</a>
-              <a href="Pages/eng.html">Engenharia de Produção</a>
-              <a href="Pages/gti.html">Gestão em tecnologia da informação</a>
-              <a href="Pages/gp.html">Gestão pública</a>
-              <a href="Pages/let.html">Letras</a>
-
+              <a href="Pages/ads.html" target="_top">Análise e Desenvolvimento de
+                Sistemas</a>
+              <a href="Pages/eng.html" target="_top">Engenharia de Produção</a>
+              <a href="Pages/gti.html" target="_top">Gestão em tecnologia da informação</a>
+              <a href="Pages/gp.html" target="_top">Gestão pública</a>
+              <a href="Pages/let.html" target="_top">Letras</a>
+            </div>
           </div>
           <a href="./entrar.html" target="_top">Entrar</a>
         </div>
+
         <a id="text-right" href="./sobre.html" target="_top">Sobre</a>
       </div>
+
       <div class="logo">
         <img src="https://github.com/pwe-redes/pwe_imagens/blob/master/Logo.jpg?raw=true" alt="">
       </div>
     </div>
+
   </header>
 </body>
+
 </html>
